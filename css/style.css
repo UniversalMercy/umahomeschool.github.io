@@ -257,7 +257,7 @@ a:hover {
 }
 
 .posts-con article {
-	border-bottom: 1px solid #d8dbe1;
+	order-bottom: 1px solid #d8dbe1;
 	padding-bottom: 40px;
 	margin-bottom: 41px;
 }
@@ -822,8 +822,8 @@ h1 {
 .news .info {
 	overflow: hidden;
 	color: #fff;
-	font-size: 14px;
-	line-height: 20px;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .news .info h4 {
@@ -1378,7 +1378,7 @@ a.btn.blue,
 	cursor: pointer;
 	height: 52px;
 	font-size: 14px;
-	color: #7e8798;
+	color: #ffffff;
 	border: none;
 	background: none;
 	width: 100%;
