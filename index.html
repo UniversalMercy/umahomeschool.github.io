@@ -102,7 +102,7 @@
       <form name="form1">
 <select name="menu1" id="menu1">
 <option value="#">Choose Grade Level</option>
-<option value="">Kindergarten</option>
+<option value="https://www.google.com">Kindergarten</option>
 <option value="">1st Grade</option>
 <option value="">2nd Grade</option>
 <option value="">3rd Grade</option>
@@ -111,7 +111,7 @@
 <script type="text/javascript">
  var urlmenu = document.getElementById( 'menu1' );
  urlmenu.onchange = function() {
-      window.open(  this.options[ this.selectedIndex ].value );
+      window.open(  this.options[ this.selectedIndex ].value,'_self');
  };
 </script>
 	</section>
@@ -144,7 +144,7 @@
 
 	<div id="fancy">
 		<h2>Request information</h2>
-		<form  action="https://formspree.io/xjvaypgb" method="POST">
+		<form  action="" method="POST">
 			<div class="left">
 				<fieldset class="mail"><input placeholder="Email address..." type="text" name="_replyto"></fieldset>
 			</div>
