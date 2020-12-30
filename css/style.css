@@ -823,8 +823,7 @@ h1 {
 	overflow: hidden;
 	color: #fff;
 	font-size: 16px;
-	line-height: 22px;
-}
+	line-height: 22px;}
 
 .news .info h4 {
 	color: #8ed3ef;
@@ -1536,6 +1535,7 @@ a.btn.blue,
 		padding-right: 0;
 		font-size: 16px;
 		line-height: 22px;
+    overflow: hidden;
 	}
 	
 	.posts .info h3 {
