@@ -645,6 +645,20 @@ h1.single{
 	height: 600px;
 }
 
+.slider2 {
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 94px;
+}
+
+.slider2 .bxslider2 li {
+	background: url(../images/hifz.png) no-repeat;
+	background-size: contain;
+  background-position: center;
+	height: 600px;
+}
+
 .slider .info {
 	float: right;
 	padding: 122px 15px 0 0;
